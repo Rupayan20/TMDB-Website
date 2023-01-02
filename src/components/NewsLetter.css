@@ -1,0 +1,74 @@
+.newsletter {
+    height: 400px;
+}
+
+.newsletter .container {
+    background: linear-gradient(to left, rgba(0, 128, 0, 0.747), rgb(3, 72, 52), rgb(3, 60, 43));
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.newsletter .container .contents {
+    margin: auto;
+    width: 500px;
+}
+
+.newsletter .container .input {
+    background-color: rgb(3, 60, 43);
+    border: 1px solid green;
+    border-radius: 7px;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+.newsletter .container .input input {
+    width: 400px;
+    background-color: rgb(3, 60, 43);
+    padding: 5px 15px;
+    border: none;
+    outline: 0;
+    color: whitesmoke;
+}
+
+.newsletter .container ::placeholder {
+    color: whitesmoke;
+}
+
+.newsletter .container .input button {
+    border: none;
+    outline: 0;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(14, 138, 97);
+    border-radius: 14px;
+    color: white;
+}
+
+.newsletter .container .contents p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newsletter .container .contents h1 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+@media screen  and (max-width:600px){
+    .newsletter .container .contents {
+        margin: auto;
+        width: 100%;
+    }
+    .newsletter .container {
+        
+        border-radius: 0px;
+        
+    
+    }
+}
