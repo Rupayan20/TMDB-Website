@@ -14,5 +14,5 @@
 </div>
 
 ##  Contributor
-* [@kaushan](https://github.com/Kaushan-Dutta)
-* [@rupayan](https://github.com/Rupayan20)
+* [@Kaushan](https://github.com/Kaushan-Dutta)
+* [@Rupayan](https://github.com/Rupayan20)
