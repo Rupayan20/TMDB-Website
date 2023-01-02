@@ -1,0 +1,77 @@
+
+.movieSeries .container h3 {
+    font-family: 'Raleway', sans-serif;
+   
+
+}
+
+.movieSeries .container .contents{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    
+}
+.movieSeries .container .contents .movieItem{
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+.movieSeries .container .contents .movieItem img{
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+
+}
+.movieSeries .container .contents .movieItem img:hover{
+    transform: scale(1.08);
+
+}
+.movieSeries .container .contents .movieItem p{
+    font-size: 20px;
+    
+    
+}
+.movieSeries .container .contents .movieItem button{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    box-shadow: 2px 2px 5px grey;
+    position: relative;
+    top: -15px;
+    color: white;
+    background-color:rgb(3, 37, 65);
+    cursor: pointer;
+    
+}
+/* .movieSeries .container .contents .movieItem .hover_1,.hover_2,.hover_3{
+    display: none;
+    position: relative;
+    top: 30px;
+    background-color: rgb(62, 61, 61);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 5px;
+    border-radius: 5px;
+
+}
+.movieSeries .container .contents .movieItem #popularity:hover + .hover_1{
+   display: inline-block;
+   
+   
+}
+.movieSeries .container .contents .movieItem #voteCount:hover + .hover_2{
+    display: block;
+    
+    
+ }
+
+ .movieSeries .container .contents .movieItem #voteAvg:hover + .hover_3{
+    display: block;
+    
+ } */
