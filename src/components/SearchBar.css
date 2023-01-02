@@ -1,0 +1,14 @@
+.Heading{
+    width: 100%;
+   
+}
+.Heading .contents{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.Heading .searchBar input{
+     width: 100%;
+     height: 50px;
+     padding: 3px 15px;
+     border-radius: 30px;
+}
